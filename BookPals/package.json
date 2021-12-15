@@ -1,0 +1,21 @@
+{
+  "name": "redusers",
+  "version": "1.0.0",
+  "description": "BookPals, a Library Management System using NodeJS Express Redis",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app"
+  },
+  "author": "Yvette and Semaa",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "express-handlebars": "^3.0.0",
+    "method-override": "^2.3.7",
+    "redis": "^2.7.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}

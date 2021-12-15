@@ -1,0 +1,56 @@
+<h1>update Users</h1>
+{{#if error}} <span class="text-danger">{{error}}</span> {{/if}}
+<form method="post" action="/user/update?_method=PUT">
+    <div class="form-group">
+        <label for="">ID</label>
+        <input type="text" name="id" id="id" class="form-control" placeholder="add ID" value="{{user.id}}">
+    </div>
+    <div class="form-group">
+        <label for="">First Name</label>
+        <input type="text" name="first_name" id="first_name" class="form-control" placeholder="First Name" value="{{user.first_name}}">
+    </div>
+    <div class="form-group">
+        <label for="">Last Name</label>
+        <input type="text" name="last_name" id="last_name" class="form-control" placeholder="Last Name" value="{{user.last_name}}">
+    </div>
+    <div class="form-group">
+        <label for="">Email</label>
+        <input type="text" name="email" id="email" class="form-control" placeholder="Email Address" value="{{user.email}}">
+    </div>
+    <div class="form-group">
+        <label for="">Phone Number</label>
+        <input type="text" name="phone" id="phone" class="form-control" placeholder="Phone Number" value="{{user.phone}}">
+    </div>
+    <div class="form-group">
+        <label>Region</label>
+        <input type="text" name="region" class="form-control" placeholder="Region">
+    </div>
+    <div class="form-group">
+        <label>Book Title</label>
+        <input type="text" name="book_title" class="form-control" placeholder="Book Title">
+    </div>
+    <div class="form-group">
+        <label>Author First Name</label>
+        <input type="text" name="author_first_name" class="form-control" placeholder="Author First Name">
+    </div>
+    <div class="form-group">
+        <label>Author Last Name</label>
+        <input type="text" name="author_last_name" class="form-control" placeholder="Author Last Name">
+    </div>
+    <div class="form-group">
+        <label>ISBN</label>
+        <input type="text" name="isbn" class="form-control" placeholder="ISBN">
+    </div>
+    <div class="form-group">
+        <label>Year of Publication</label>
+        <input type="text" name="year" class="form-control" placeholder="Year of Publication">
+    </div>
+    <div class="form-group">
+        <label>User Type</label>
+        <select name="user_type" class="form-control">
+        <option value="owner">Owner</option>
+        <option value="borrower">Borrower</option>
+        </select>
+    </div>
+    <button type="submit" class="btn btn-primary">Save</button>
+</form>

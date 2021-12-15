@@ -1,0 +1,17 @@
+<h1>{{user.first_name}} {{user.last_name}} {{user.id}}</h1>
+<h1>{{user.book_title}} {{user.author_last_name}},{{user.author_first_name}}</h1>
+<ul class="list-group">
+  <li class="list-group-item"><strong>Email: </strong>{{user.email}}</li>
+  <li class="list-group-item"><strong>Phone: </strong>{{user.phone}}</li>
+  <li class="list-group-item"><strong>Region: </strong>{{user.region}}</li>
+  <li class="list-group-item"><strong>Year of Publication: </strong>{{user.year}}</li>
+  <li class="list-group-item"><strong>ISBN: </strong>{{user.isbn}}</li>
+  <li class="list-group-item"><strong>User Type: </strong>{{user.user_type}}</li>
+
+
+
+</ul>
+<a class="btn btn-default pull-left" href="/">Back</a>
+<form method="POST" action="/user/delete/{{user.id}}?_method=DELETE">
+  <input type="submit" class="btn btn-danger pull-right" value="Delete">
+</form>

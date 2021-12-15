@@ -1,0 +1,58 @@
+<h1>Add User</h1>
+{{#if error}} <span>{{error}}</span>{{/if}}
+<form method="POST" action="/user/add">
+  <div class="form-group">
+    <label>ID</label>
+    <input type="text" name="id" class="form-control" placeholder="Add ID">
+  </div>
+  <div class="form-group">
+    <label>First Name</label>
+    <input type="text" name="first_name" class="form-control" placeholder="First Name">
+  </div>
+  <div class="form-group">
+    <label>Last Name</label>
+    <input type="text" name="last_name" class="form-control" placeholder="Last Name">
+  </div>
+  <div class="form-group">
+    <label>Email</label>
+    <input type="text" name="email" class="form-control" placeholder="Email Address">
+  </div>
+  <div class="form-group">
+    <label>Phone</label>
+    <input type="text" name="phone" class="form-control" placeholder="Phone Number">
+  </div>
+  <div class="form-group">
+    <label>Region</label>
+    <input type="text" name="region" class="form-control" placeholder="Region">
+  </div>
+  <div class="form-group">
+    <label>Book Title</label>
+    <input type="text" name="book_title" class="form-control" placeholder="Book Title">
+  </div>
+  <div class="form-group">
+    <label>Author First Name</label>
+    <input type="text" name="author_first_name" class="form-control" placeholder="Author First Name">
+  </div>
+  <div class="form-group">
+    <label>Author Last Name</label>
+    <input type="text" name="author_last_name" class="form-control" placeholder="Author Last Name">
+  </div>
+  <div class="form-group">
+    <label>ISBN</label>
+    <input type="text" name="isbn" class="form-control" placeholder="ISBN">
+  </div>
+  <div class="form-group">
+    <label>Year of Publication</label>
+    <input type="text" name="year" class="form-control" placeholder="Year of Publication">
+  </div>
+  <div class="form-group">
+    <label>User Type</label>
+    <select name="user_type" class="form-control">
+      <option value="owner">Owner</option>
+      <option value="borrower">Borrower</option>
+    </select>
+  </div>
+  <input type="submit" class="btn btn-primary" value="Save">
+</form>
+
+
