@@ -15,7 +15,8 @@ Project 3 / Library Management System using Node.js, Express, RedisSemaa and Yve
 * creating users and books
 * reviewing users and books
 * updating users and books
-* deleting users and books## Authors
+* deleting users and books
+* ## Authors
 * Semaa Amin
 * Yvette Green
 
