@@ -1,14 +1,21 @@
-# BookPalsVersion3NodeJSExpressRedis
-Library Management System using Node.js, Express, Redis
-
-# Database Systems - Project 3 - Designing and Implementing a Key-Value, In-Memory Database
-Course Materials from the Masters Database Systems class CS5200 at Northeastern University
-
-We created a Library Management System that Creates, Reviews, Updates and Deletes Users and Books using Node.js, Express, Handlebars and the Redis Database
-
-
-## Authors:
-* Semaa Amin, Yvette Green
-
-
+# Book Pals
+CS5200 - Database Management Systems
+Project 3 / Library Management System using Node.js, Express, RedisSemaa and Yvette are building a book swapping management system that allows book owners loan their favorite books to borrowers residing in the same geographical region. Book owners can add the books they wish to share with others. Book borrowers can select books to borrow within their region. Users can also rate the books.## UML Class Diagram:
+![Website Screenshot](https://github.com/greeny90/BookPalsVersion3/blob/main/B%20-%20UML%20Class%20Diagram.png)## BookPals Home Page:
+![Website Screenshot](https://github.com/greeny90/BookPalsVersion3/blob/main/images/home_page.png)## Search User Page:
+![Website Screenshot](https://github.com/greeny90/BookPalsVersion3/blob/main/images/searchresultspage.png)## Add User Page:
+![Website Screenshot](https://github.com/greeny90/BookPalsVersion3/blob/main/images/adduserpage.png)## RedisInsights-Preview Page:
+![Website Screenshot](https://github.com/greeny90/BookPalsVersion3/blob/main/images/RedisInsightspage.png)# Installation1) Clone the repository
+2) Install the dependencies and run `npm install`
+3) `npm start`
+4) Start Redis server locally: `redis-server`
+5) To use the RedisInsight GUI, go to https://docs.redis.com/latest/ri/installing/install-redis-desktop/
+# Functions of this application
+* This is CRUD application that has the capability of:
+* creating users and books
+* reviewing users and books
+* updating users and books
+* deleting users and books## Authors
+* Semaa Amin
+* Yvette Green
 
